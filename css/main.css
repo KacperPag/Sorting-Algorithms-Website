@@ -68,3 +68,13 @@ header button:hover {
 .show {
     display: block;
 }
+
+h1 {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 4%;
+}
