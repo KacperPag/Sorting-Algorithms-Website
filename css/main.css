@@ -15,7 +15,7 @@ header {
 }
 li, a, button {
     font-size: 28px;
-    font-family: Impact, Haettenschweiler, 'Regular', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: white;
     /* text-shadow:0 0 30px #ffba00; */
