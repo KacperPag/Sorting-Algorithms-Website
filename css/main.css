@@ -8,13 +8,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.kacpairGamesLogo {
-    position: relative;
-    left: -60px;
-    width: "200px";
-    height: "60px";
-    cursor: pointer;
-}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,7 +17,7 @@ li, a, button {
     font-size: 28px;
     font-family: Impact, Haettenschweiler, 'Regular', sans-serif;
     text-decoration: none;
-    color: #ffba00;
+    color: white;
     /* text-shadow:0 0 30px #ffba00; */
 }
 .navigation {
@@ -40,6 +33,7 @@ li, a, button {
     transition: all 0.3s ease 0s;
 }
 .navigation li a:hover {
+    cursor: pointer;
     color: #ffe6a0;
 }
 button {
@@ -53,4 +47,24 @@ button {
 }
 header button:hover {
     background-color: #a98624;
+}
+.sortingAlgorithmsDropdownContent {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    background-color: #181818;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} 
+.sortingAlgorithmsDropdownContent a {
+    float: none;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.show {
+    display: block;
 }
