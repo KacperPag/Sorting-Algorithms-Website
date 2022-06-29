@@ -1,7 +1,3 @@
-function sortingAlgorithmsDropdown() {
-    document.getElementById("sortingAlgorithmsDropdown").classList.toggle("show");
-}
-  
 window.onclick = function(e) {
     if (!e.target.matches('.sortingAlgorithmsDropdownBtn')) {
         var sortingAlgorithmsDropdown = document.getElementById("sortingAlgorithmsDropdown");
@@ -9,4 +5,8 @@ window.onclick = function(e) {
             sortingAlgorithmsDropdown.classList.remove('show');
         }
     }
+}
+
+function sortingAlgorithmsDropdown() {
+    document.getElementById("sortingAlgorithmsDropdown").classList.toggle("show");
 }
