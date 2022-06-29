@@ -68,27 +68,33 @@ header button:hover {
 .show {
     display: block;
 }
+.spacer {
+    height: 20px;
+}
 
 h1 {
     font-size: 32px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    max-width: fit-content;
     color: white;
-    position: absolute;
-    top: 7%;
+    position: relative;
     left: 4%;
 }
 h2 {
+    font-size: 26px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    max-width: fit-content;
     color: white;
-    position: absolute;
-    top: 15%;
+    position: relative;
+    left: 4%;
 }
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    max-width: fit-content;
     color: white;
-    position: absolute;
-    top: 12%;
+    position: relative;
+    left: 4%;
 }
