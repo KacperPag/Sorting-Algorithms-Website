@@ -78,3 +78,17 @@ h1 {
     top: 7%;
     left: 4%;
 }
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 15%;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 12%;
+}
