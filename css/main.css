@@ -34,7 +34,7 @@ li, a, button {
 }
 .navigation li a:hover {
     cursor: pointer;
-    color: #ffe6a0;
+    color: grey;
 }
 button {
     padding: 9px 25px;
@@ -46,7 +46,7 @@ button {
     color: black;
 }
 header button:hover {
-    background-color: #a98624;
+    background-color: grey;
 }
 .sortingAlgorithmsDropdownContent {
     display: none;
@@ -93,7 +93,7 @@ h2 {
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    max-width: fit-content;
+    max-width: 90%;
     color: white;
     position: relative;
     left: 4%;
