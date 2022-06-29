@@ -4,9 +4,9 @@ function sortingAlgorithmsDropdown() {
   
 window.onclick = function(e) {
     if (!e.target.matches('.sortingAlgorithmsDropdownBtn')) {
-        var myDropdown = document.getElementById("sortingAlgorithmsDropdown");
-        if (myDropdown.classList.contains('show')) {
-            myDropdown.classList.remove('show');
+        var sortingAlgorithmsDropdown = document.getElementById("sortingAlgorithmsDropdown");
+        if (sortingAlgorithmsDropdown.classList.contains('show')) {
+            sortingAlgorithmsDropdown.classList.remove('show');
         }
     }
 }
